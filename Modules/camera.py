@@ -12,3 +12,6 @@ def takePicture(filename):
         cv2.imwrite(filename,image)
         print("Save completely"+filename+"("+str(w)+"X"+str(h)+")")
     cam.release()
+
+if __name__ == '__main__':
+    takePicture("../test.jpg")
