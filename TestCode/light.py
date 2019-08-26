@@ -16,10 +16,6 @@ def setup():
   GPIO.setup(s3,GPIO.OUT)
   print("set up \n")
   
-
-
-
-
 def loop():
   temp = 1
   println('iter 1')
